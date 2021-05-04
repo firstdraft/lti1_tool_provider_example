@@ -5,7 +5,7 @@ This is a basic and simple LTI Tool Provider that uses the
 To get this running in your development environment, check out the repo then:
 
     bundle install
-    shotgun
+    bundle exec shotgun -o 0.0.0.0
 
 If you'd rather run the app using docker a docker-compose file is included:
 
@@ -16,5 +16,5 @@ If you're using dinghy on OS X you'll be able to visit the app at: http://lti1-e
 
 You can use the XML from the `/tool_config.xml` endpoint to configure the tool in a Tool Consumer.
 
-You can use this with the [example LTI Tool Consumer](https://github.com/instructure/lti_tool_consumer_example)
+You can use this with the [example LTI Tool Consumer](https://github.com/firstdraft/lti_tool_consumer_example)
 to do some simple LTI testing.
